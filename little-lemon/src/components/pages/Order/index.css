@@ -1,0 +1,37 @@
+/* Order.css */
+
+.order-container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  }
+  img {
+    max-width: 30%; /* Make sure the image doesn't exceed its container's width */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove extra space below the image */
+    margin: 0 auto; /* Center the image within its container */
+  }
+  .order-form {
+    margin-top: 20px;
+  }
+  
+  .order-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .order-form input,
+  .order-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .order-form p {
+    font-size: 18px;
+  }

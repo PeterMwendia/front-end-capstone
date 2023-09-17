@@ -1,0 +1,18 @@
+.week-specials {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.orderOnline-btn, .orderOnline-btn a {
+  margin-bottom: 1rem;
+  color: black;
+  text-decoration: none;
+}
+
+.meal-grid {
+  display: grid;
+  grid-template-columns: 3;
+  column-gap: 1%;
+}
